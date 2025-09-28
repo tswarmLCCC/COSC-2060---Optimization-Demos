@@ -1,6 +1,11 @@
-This file shows the exact contents for the five CSV files required by the get_data_from_csvs function, formatted for easy viewing on GitHub.
+This file contains the raw text for sample_csv_files.md.
 
-professors.csv
+Copy everything inside the code block below and paste it into your file to fix the formatting.
+
+This file shows the exact contents for the five CSV files required by the `get_data_from_csvs` function, formatted for easy viewing on GitHub.
+
+### `professors.csv`
+```csv
 ProfessorName
 Prof_A
 Prof_B
@@ -8,9 +13,7 @@ Prof_C
 Prof_D
 Prof_E
 
-
 courses.csv
-
 CourseName
 Intro_to_AI
 Advanced_Algorithms
@@ -23,9 +26,7 @@ Machine_Learning
 Cybersecurity
 Software_Engineering
 
-
 course_demand.csv
-
 CourseName,Demand
 Intro_to_AI,3
 Advanced_Algorithms,2
@@ -38,7 +39,6 @@ Machine_Learning,3
 Cybersecurity,2
 Software_Engineering,2
 
-
 professor_load.csv
 ProfessorName,Load
 Prof_A,5
@@ -47,9 +47,9 @@ Prof_C,5
 Prof_D,5
 Prof_E,5
 
-
 preferences.csv
 This file is in a "long" format, which is easy for programs to parse.
+
 ProfessorName,CourseName,Preference
 Prof_A,Intro_to_AI,1
 Prof_A,Advanced_Algorithms,2
@@ -98,8 +98,4 @@ Prof_E,Operating_Systems,3
 Prof_E,Linear_Algebra,2
 Prof_E,Web_Development,3
 Prof_E,Mobile_Apps,1
-Prof_E,Machine_Learning,2
-Prof_E,Cybersecurity,999
-Prof_E,Software_Engineering,999
-
-
+Prof_E,Machine_Learning
